@@ -105,7 +105,6 @@
           >
             <v-sheet
               class="text-center py-4"
-              color="grey-lighten-4"
             >
 
               <v-container>
