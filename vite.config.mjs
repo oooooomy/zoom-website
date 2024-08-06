@@ -10,6 +10,10 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/zoom-website",
+  build: {
+    outDir: 'docs'
+  },
   plugins: [
     Vue({
       template: { transformAssetUrls }
