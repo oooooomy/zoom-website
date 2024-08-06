@@ -1,1 +1,0 @@
-import{c as s,a,F as n,o as _,_ as c,b as e,d as t,e as i,f as o,A as r,g as m,P as f,h as l}from"./index-BhOhbJYl.js";const g={__name:"About",setup(p){return(u,$)=>(_(),s(n,null,[a(c),a(e),a(t),a(i),a(o),a(r),a(m),a(f),a(l)],64))}};export{g as default};
