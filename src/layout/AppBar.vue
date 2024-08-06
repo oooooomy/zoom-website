@@ -1,14 +1,10 @@
 <template>
-  <v-app-bar>
+  <v-app-bar elevation="0">
     <template #title>
-      <div class="d-inline-flex align-center text-h4 font-weight-bold my-5 text-primary">
-        <v-icon icon="$vuetify" start />
-        Zoom Machine
-      </div>
+      <img alt="" class="pl-lg-16" src="/assets/logo.jpg" style="height: 50px;margin-top: 8px">
     </template>
-
     <template v-if="$vuetify.display.mdAndUp" #append>
-      <div class="hidden-sm-and-down">
+      <div class="hidden-sm-and-down pr-lg-16">
         <v-btn
           v-for="item in menus"
           :key="item"
@@ -67,3 +63,11 @@
     router.push(item.path)
   }
 </script>
+
+<style scoped>
+.v-toolbar {
+  border-color: rgba(var(--v-border-color), var(--v-border-opacity));
+  border-style: solid;
+  border-bottom-width: 1px;
+}
+</style>
